@@ -1,0 +1,181 @@
+:root{
+    --vermelho: #e50914 ;
+    --preto: #141414 ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+       
+}
+
+header .titulo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+header nav a:hover{
+    color: #fff
+}
+
+/*filme em destaque*/
+
+.principal-film{
+    font-size: 17px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('https://www.whodesigners.com.br/leandroflix/img/Nagato_The_pai.jpg');
+    background-position: 100px, 0px, 0px, 0px;
+    height: 700px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal-film .descricao{
+    margin-bottom: 15%;
+}
+
+.titulo{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    margin-top: 10px;
+
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao:hover{
+    background-color: white;    
+    color: black;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+*/
+.principal-film .container{
+    width: 70%;
+}
+
+/*Carrossel de filmes*/
+
+.filmes {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/*  Amigos CSS  */
+
+.escolha{
+    font-size: 17px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/escolha.jpeg');
+    background-position: 0px, 100px,80px,0px;
+    height: 900px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.escolha .descricao{    
+    margin-bottom: 15%;
+}
+
+.escolha .titulo{
+    font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    text-align: center;
+}
+
+.escolha .container{
+    width: 100%;
+    align-items: center;
+}
+
+.escolha .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    margin-top: 10px;
+    margin-left: 10%;
+     
+
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.escolha .botao:hover{
+    background-color: white;    
+    color: black;
+}
+
+.escolha .grupos{
+    display: flex;
+    justify-content: center;
+
+        width: 100%;
+        
+        position: absolute;
+        
+        bottom: 25%;
+        
+        margin: 0;
+        
+        
+}
+
+.escolha p{
+    text-align: center;
+}
+
+header .titulo:hover{
+    cursor: pointer;
+
+}
+
+header a{
+    text-decoration: none;
+}
+
+.escolha .container{
+    margin-left: 0px;
+}
